@@ -1,6 +1,6 @@
 # Ecommerce Backend
 
-Este é um projeto de backend para uma plataforma de e-commerce desenvolvida como parte da **Aula 1 de Back-End**. O sistema foi construído utilizando Java 17 e o framework Spring Boot, com integração ao banco de dados MySQL e Docker Compose para facilitar o desenvolvimento e a implantação.
+Este é um projeto de backend para uma plataforma de e-commerce desenvolvida como parte da **Aula de Back-End**. O sistema foi construído utilizando Java 21 e o framework Spring Boot, com integração ao banco de dados MySQL e Docker Compose para facilitar o desenvolvimento e a implantação.
 
 ## 🚀 Funcionalidades
 
@@ -22,7 +22,7 @@ Este é um projeto de backend para uma plataforma de e-commerce desenvolvida com
 
 ### Pré-requisitos
 
-- Java 17 ou superior instalado.
+- Java 21 ou superior instalado.
 - Docker e Docker Compose instalados.
 
 ### Passos para Execução
