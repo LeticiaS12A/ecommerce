@@ -61,17 +61,4 @@ public class PedidoService {
 		return new PedidoDTO(pedido);
 	}
 	
-
-//	@Transactional
-//	public void atualizarStatusParaPago(Long id) {
-//	    Pedido pedido = pedidoRepository.findById(id)
-//	        .orElseThrow(() -> new RuntimeException("Pedido não encontrado"));
-//	    
-//	    if (pedido.getStatus() != StatusDoPedido.AGUARDANDO_PAGAMENTO) {
-//	        throw new IllegalStateException("O pedido não está no status 'AGUARDANDO_PAGAMENTO'");
-//	    }
-//	    
-//	    pedido.setStatus(StatusDoPedido.PAGO);
-//	    pedidoRepository.save(pedido);
-//	}
 }
